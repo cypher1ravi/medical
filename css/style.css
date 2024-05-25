@@ -1,0 +1,335 @@
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}  
+/*--------------------------NAVBAR----------------------------------*/
+.menubar{
+    width: 100%;
+    z-index: 1;
+    margin-top: 5px;
+}
+.navbar-nav{
+    margin-left: 400px;
+}
+.icon{
+    display: flex; 
+    margin-left: 200px;  
+}
+.about_us{
+    margin-top: 0px;
+}
+/*-----------------------------SLIDER------------------------------------*/
+.gradient{
+        background-image:linear-gradient(to right,rgb(11, 20, 72), rgba(16, 70, 26));
+     }
+     .gradient .carousel-item{
+        margin-bottom: 80px;
+     }
+     .carousel{
+        margin-top: 80px;
+     }
+     .slider_paragraph{
+        margin-bottom: 80px;
+        margin-left: 289px;
+        text-align: left;
+     }
+     .slider_paragraph a{
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 8px 15px;
+     }
+     .slider_paragraph h1{
+        margin-bottom: 45px;
+     }
+     .slider_paragraph p{
+        letter-spacing: 2px;
+     }
+     /* -------------------------------ABOUT_US-------------------------------------------- */
+    
+/*--------------------------NUMBER_WRAPPER----------------------------------*/
+.number_wrapper{
+    margin: 0;
+    padding:0;
+   
+    background-image: url(../image/count.jpg);
+}
+.overlay{
+    margin: 60px 0px;
+    padding: 35px 0px;
+    
+    background-color: rgba(0,0,0,0.7); 
+}
+.count_icon{
+    margin: 0px;
+    text-align: center;
+   }
+  .symbol{
+    font-size: 25px;
+  }
+.count_icon h4{
+ color: white;
+ font-size: 20px;
+}
+.count_icon b{
+    font-size: 28px;
+    color: white;
+   }
+   .fa-users{
+  
+    padding: 22px;
+   }
+  
+   .fa-user-doctor{
+    padding: 22px;  
+   }
+    .fa-trophy{
+        padding: 22px;
+    }
+    .fa-heart-pulse{
+        padding: 22px;
+    }
+/*--------------------------OUR_SERVICES----------------------------------*/
+ .our_services{
+    padding: 60px;
+}
+.services{
+    text-align:right;
+    margin: 10px 0px 5px 5px;
+}
+.services h4{
+    font-size: 20px;
+}
+.services p{
+    margin-right: 2px;
+} 
+.preparation{
+    text-align: left;
+    margin-left: 80px;
+}
+.preparation h4{
+    font-size: 20px;
+}
+
+/*----------------our_team--------------------*/
+ .our_team{
+    text-align: center;
+}
+.our_team{
+    color: white;
+}
+.our_team h2{
+    line-height: 90px;
+    margin: -4px;
+}
+.our_team p{
+    margin-bottom: 50px;
+} 
+.item{
+  background-color: white;
+  color: black;
+  width: 90%;
+
+}
+.item h5{
+  padding-top: 20px;
+  line-height: 15px;
+}
+.item p{
+  padding-bottom: 7px;
+}
+
+/*----------------our_news--------------------*/
+.our_news{
+    margin: 50px;
+   
+}
+.our_news .news h5 p{
+    padding: 20px;
+}
+.our_news .news{
+    padding: -2px 30px;
+    text-align: center;
+    margin-left: 2px;
+}
+.stroke{
+    float: left;
+    padding: 30px;
+}
+.line4{
+  margin-left: 570px;
+}
+
+/*--------------------------OUR_TESTIMONIALS----------------------------------*/
+
+.testimonial{
+  background-image: url(../image/testi_bg.jpg)
+}
+.item{
+margin-top: 45px;
+}
+.testimonial .item .patient_serve {
+  padding-top: 81px;
+  background-color: white;
+}
+.testimonial .container{
+  margin: 0px 100px;
+  padding-bottom: 40px;
+}
+.img_part img{
+  margin-bottom: -80px;
+  margin-left: 110px;
+}
+.overlay_testi{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.line5{
+  margin-left: 730px;
+}
+
+/*--------------------------MAP_LOCATION----------------------------------*/
+  .map_location{
+    margin: 65px 0px;
+    
+  }
+  iframe{
+    margin: 15px 150px;
+    padding: -1px;
+    display: flex;
+  }
+  .form_fill{
+    padding: 10px 20px;
+  }
+  input{
+    margin-bottom: 14px;
+  }
+  .map{
+    margin-left: 152px;
+    padding-bottom: 1px;
+  }
+  .middle{
+text-align: center;
+  }
+  .font{
+    margin-right: 5px;
+    font-size: 22px
+  }
+  .child_middle{
+    padding: 20px;
+    margin: -30px;
+  }
+  .line6{
+    margin-left: 143px;
+  }
+  /*--------------------------FOOTER----------------------------------*/
+
+  .last {
+      
+    background-image: url(../image/foter_bg.jpg)
+  }
+
+  .pages {
+    margin-top: 12px;
+    padding: 100px 0;
+    background-color: rgb(0, 0, 0, 0.7)
+  }
+  .part {
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  .photo{
+    align-items: center;
+    margin-left: 25px;
+  }
+  .ourself{
+    color: white;
+  }
+  .feed{
+    color: white;
+    opacity: 0.8;
+  }
+  .para_col{
+  color: white;
+}
+
+  .mail{
+    opacity: 0.7;
+  }
+  
+  .instagram{
+    color: white;
+    box-shadow: 20px solid;
+  }
+  .instagram img{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .foot_end{
+    margin-left: 232px;
+    margin-top: 90px;
+    line-height: 37px
+  }
+  .last_item{
+    border: 1px solid gray;
+    width: 100%;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 45px;
+    color: white;
+  }
+  
+  .last_item1{
+    border: 1px solid gray;
+    width: 10%;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 195px;
+    padding-top: 30px;
+    color: white;
+    font-size: 19px;
+    
+    
+  }
+  .last_item2{
+    border: 1px solid gray;
+    width: 100%;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 45px;
+  }
+
+@media (min-width: 768px){
+  .our_news .col-md-12{
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width:992px){
+    .about_us_img{
+        text-align: center !important;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:992px){
+     .line5{
+       margin-left: 418px;
+    }
+}
+@media screen and (max-width:992px){
+     .line4{
+       margin-left: 290px;
+    } 
+}
+@media screen and (max-width:992px){
+  .photo1{
+    margin-left: 100px;
+  }
+    }
+}
+.bright{
+  color: white;
+  margin-left: 5px;
+}
